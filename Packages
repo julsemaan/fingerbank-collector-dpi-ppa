@@ -177,3 +177,34 @@ Description: multi-threaded file compression and decompression library
  libwandio is developed by the WAND Network Research Group at Waikato
  University, New Zealand.
 
+Package: ndpi
+Version: 3.2.0-3504
+Architecture: amd64
+Maintainer: Luca Deri <deri@ntop.org>
+Installed-Size: 2107
+Depends: libnuma1
+Filename: ./ndpi_3.2.0-3504_amd64.deb
+Size: 333384
+MD5sum: 99cb0a613f1190da7b1715d63ceaa4f9
+SHA1: 34814852297d7a71fc06cbfa45d293f971b5e00b
+SHA256: 6fb3a539c0165de76cda1a1edcab74842afa2456aa913355cd03dc62cf092e34
+Section: free
+Priority: optional
+Description: A L7 DPI library.
+
+Package: ndpi-dev
+Source: ndpi
+Version: 3.2.0-3504
+Architecture: amd64
+Maintainer: Luca Deri <deri@ntop.org>
+Installed-Size: 12358
+Depends: ndpi (= 3.2.0-3504)
+Filename: ./ndpi-dev_3.2.0-3504_amd64.deb
+Size: 974056
+MD5sum: 5d30cd9c6224cb43dfe8f796fc2dc82d
+SHA1: 8265c4be98a7368d8f61bd22b448069debfc8117
+SHA256: 0097bce4b4055e3b7974df4f3a74551ec478af09369f6ed79e20d2fbc51256bb
+Section: libdevel
+Priority: optional
+Description: Development library and header files for ndpi
+
