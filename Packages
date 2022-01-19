@@ -1,16 +1,16 @@
 Package: fingerbank-collector
 Version: 1.3.22-1
 Architecture: amd64
-Maintainer: Durand fabrice <fdurand@inverse.ca>
-Installed-Size: 15082
+Maintainer: Inverse Inc. <info@inverse.ca>
+Installed-Size: 15086
 Pre-Depends: debconf (>= 0.2.17)
-Depends: libpcap0.8, liblinear4, libwandio1, libwandder2, libtrace4, libprotoident
+Depends: libpcap0.8, liblinear4, libwandio1, libwandder2, libtrace4, libprotoident, ndpi
 Provides: fingerbank-collector
 Filename: ./fingerbank-collector_1.3.22-1_amd64.deb
-Size: 4170564
-MD5sum: ee7a04c8d02f550481b837a169fec3a6
-SHA1: 14fe72c52706d259afce6b881c5de8faeb830ef7
-SHA256: c9a1330e3d7274af149db56cad49c199133a42d23a6e0d651dedf9f4a56ddeeb
+Size: 4174740
+MD5sum: e39b1ece1c96362054e526ee564368f2
+SHA1: 21db049e0b84298fdb06a0a69e89d0e70afeb5f3
+SHA256: 702effc521b22d28930e458ecd364700f35e0c19fc071774ee7a731ef863eac5
 Section: net
 Priority: optional
 Homepage: http://www.fingerbank.org/
