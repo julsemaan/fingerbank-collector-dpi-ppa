@@ -8,7 +8,7 @@ Setup your repo:
 
 ```
 curl -s --compressed "https://julsemaan.github.io/fingerbank-collector-dpi-ppa/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/my_list_file.list "https://julsemaan.github.io/fingerbank-collector-dpi-ppa/fingerbank-collector-dpi-ppa.list"
+sudo curl -s --compressed -o /etc/apt/sources.list.d/fingerbank-collector-dpi-ppa.list "https://julsemaan.github.io/fingerbank-collector-dpi-ppa/fingerbank-collector-dpi-ppa.list"
 sudo apt update
 ```
 
