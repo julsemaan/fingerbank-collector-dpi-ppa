@@ -1,6 +1,6 @@
 = Fingerbank Collector DPI PPA
 
-NOTE: This PPA is for testing only, don't use this for production purposes
+NOTE: This PPA is for testing only, don't use this for production purposes. The private key is in this repo to sign the packages, another good reason not to trust this PPA for production purposes.
 
 == Install packages from this repo
 
