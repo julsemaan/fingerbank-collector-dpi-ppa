@@ -17,6 +17,25 @@ Homepage: http://www.fingerbank.org/
 Description: fingerbank
  Fingerbank collector for usage only with a PacketFence installation
 
+Package: fingerbank-collector
+Version: 1.3.99-1
+Architecture: amd64
+Maintainer: Inverse Inc. <info@inverse.ca>
+Installed-Size: 15094
+Pre-Depends: debconf (>= 0.2.17)
+Depends: libpcap0.8, liblinear4, libwandio1, libwandder2, libtrace4, libprotoident, ndpi
+Provides: fingerbank-collector
+Filename: ./fingerbank-collector_1.3.99-1_amd64.deb
+Size: 4176324
+MD5sum: 45a21a2293f5a85a07daeda177b33511
+SHA1: 1465ab35468930e196c49f887f4b2302f8bd1486
+SHA256: d2056bfadf019a945b8b64e0fec5123f64055c02731c890cdb6c8951ab52fe13
+Section: net
+Priority: optional
+Homepage: http://www.fingerbank.org/
+Description: fingerbank
+ Fingerbank collector for usage only with a PacketFence installation
+
 Package: libprotoident
 Version: 2.0.15-2
 Architecture: amd64
