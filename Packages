@@ -26,10 +26,10 @@ Pre-Depends: debconf (>= 0.2.17)
 Depends: libpcap0.8, liblinear4, libwandio1, libwandder2, libtrace4, libprotoident, ndpi
 Provides: fingerbank-collector
 Filename: ./fingerbank-collector_1.3.99-1_amd64.deb
-Size: 4260604
-MD5sum: 615d1de569afdeb82179f8f830eac4fd
-SHA1: 7582f776a3ad774b181ea071fe639e726aa9b05a
-SHA256: 4f9c36d791fcfd976cad0a8af7142cff6e81450a6c140c348ccd5ac0a6f4fe88
+Size: 4258900
+MD5sum: 0e8c7d78f262552213cbce9e787c6a49
+SHA1: f42714c2eafe1d275b568b4c253883c1d52369fa
+SHA256: 53fa175ea5b9b3bc1ccc0d13e57ccffb24f32330df48a682687914124311c2fa
 Section: net
 Priority: optional
 Homepage: http://www.fingerbank.org/
