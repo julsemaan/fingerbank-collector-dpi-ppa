@@ -21,15 +21,15 @@ Package: fingerbank-collector
 Version: 1.3.99-1
 Architecture: amd64
 Maintainer: Inverse Inc. <info@inverse.ca>
-Installed-Size: 15381
+Installed-Size: 15245
 Pre-Depends: debconf (>= 0.2.17)
 Depends: libpcap0.8, liblinear4, libwandio1, libwandder2, libtrace4, libprotoident, ndpi
 Provides: fingerbank-collector
 Filename: ./fingerbank-collector_1.3.99-1_amd64.deb
-Size: 4258900
-MD5sum: 0e8c7d78f262552213cbce9e787c6a49
-SHA1: f42714c2eafe1d275b568b4c253883c1d52369fa
-SHA256: 53fa175ea5b9b3bc1ccc0d13e57ccffb24f32330df48a682687914124311c2fa
+Size: 4216620
+MD5sum: 36ed38557057251da662c9abfb29d7ee
+SHA1: b1a553dc4f889e74f5d84af87d7c45540d3e0bd2
+SHA256: e7f48c64c8ecf5dc0974a85dc9f026be057cdc1cba1a6eff9adb85bf5e057178
 Section: net
 Priority: optional
 Homepage: http://www.fingerbank.org/
