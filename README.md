@@ -21,3 +21,17 @@ apt install fingerbank-collector
 == Update the repo
 
 This repo is built on debian11.home.semaan.ca using instructions from https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html
+
+Just put your new .deb files inside here and then
+
+```
+export EMAIL=jul.semaan@gmail.com
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
+apt-ftparchive release . > Release
+gpg --default-key "${EMAIL}" -abs -o - Release > Release.gpg
+gpg --default-key "${EMAIL}" --clearsign -o - Release > InRelease
+git add -A
+git commit -m update
+git push
+```

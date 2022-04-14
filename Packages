@@ -211,6 +211,21 @@ Section: free
 Priority: optional
 Description: A L7 DPI library.
 
+Package: ndpi
+Version: 4.2.0-3590
+Architecture: amd64
+Maintainer: Luca Deri <deri@ntop.org>
+Installed-Size: 3701
+Depends: libnuma1
+Filename: ./ndpi_4.2.0-3590_amd64.deb
+Size: 527632
+MD5sum: 9a67d227f52d18a6cd76d39edca32bce
+SHA1: 1c1e2c3648c676b832ea96172391b1694c77fc51
+SHA256: f33f356ce0cd805b84dec52a36d7b0594dcfa862642b1473b405ddd8bda59e0c
+Section: free
+Priority: optional
+Description: A L7 DPI library.
+
 Package: ndpi-dev
 Source: ndpi
 Version: 3.2.0-3504
@@ -223,6 +238,22 @@ Size: 974056
 MD5sum: 5d30cd9c6224cb43dfe8f796fc2dc82d
 SHA1: 8265c4be98a7368d8f61bd22b448069debfc8117
 SHA256: 0097bce4b4055e3b7974df4f3a74551ec478af09369f6ed79e20d2fbc51256bb
+Section: libdevel
+Priority: optional
+Description: Development library and header files for ndpi
+
+Package: ndpi-dev
+Source: ndpi
+Version: 4.2.0-3590
+Architecture: amd64
+Maintainer: Luca Deri <deri@ntop.org>
+Installed-Size: 15744
+Depends: ndpi (= 4.2.0-3590)
+Filename: ./ndpi-dev_4.2.0-3590_amd64.deb
+Size: 1477108
+MD5sum: 080cec8f0ec68db6127e228953a3246b
+SHA1: 0d3b62fc7dd68cf6880ddcf11e9ab4162f4633cf
+SHA256: 5cd5a279f55547093745339d5f873c1e2943ea9ef1dcbb4a261cba44c3434ffe
 Section: libdevel
 Priority: optional
 Description: Development library and header files for ndpi
